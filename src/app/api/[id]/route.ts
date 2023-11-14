@@ -7,4 +7,3 @@ export async function GET(
   const id = params.id;
   return NextResponse.json(id);
 }
-
